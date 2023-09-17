@@ -32,6 +32,12 @@
 
     <script src="https://www.gstatic.com/firebasejs/ui/6.1.0/firebase-ui-auth.js"></script>
     <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.1.0/firebase-ui-auth.css" />
+
+    <script type="module">
+        import { GoogleAuthProvider } from "firebase/auth";
+        const provider = new GoogleAuthProvider();
+        console.log({ provider })
+    </script>
 </body>
 
 </html>
