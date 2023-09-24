@@ -1,43 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Family Expender</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>HELLO WORLD</h1>
 
     <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js';
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
 
-        // Your web app's Firebase configuration
-        const firebaseConfig = {
-            apiKey: "AIzaSyA_mT8T01palZ_fUMS_Mg3yx7cKjo8wgfQ",
-            authDomain: "expender-d2bb9.firebaseapp.com",
-            projectId: "expender-d2bb9",
-            storageBucket: "expender-d2bb9.appspot.com",
-            messagingSenderId: "251245516492",
-            appId: "1:251245516492:web:aa49251abea465995d9469"
-        };
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: 'AIzaSyA_mT8T01palZ_fUMS_Mg3yx7cKjo8wgfQ',
+        authDomain: 'expender-d2bb9.firebaseapp.com',
+        projectId: 'expender-d2bb9',
+        storageBucket: 'expender-d2bb9.appspot.com',
+        messagingSenderId: '251245516492',
+        appId: '1:251245516492:web:aa49251abea465995d9469',
+      };
 
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
     </script>
 
     <script src="https://www.gstatic.com/firebasejs/ui/6.1.0/firebase-ui-auth.js"></script>
-    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.1.0/firebase-ui-auth.css" />
-
-    <script type="module">
-        import { GoogleAuthProvider } from "firebase/auth";
-        const provider = new GoogleAuthProvider();
-        console.log({ provider })
-    </script>
-</body>
-
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://www.gstatic.com/firebasejs/ui/6.1.0/firebase-ui-auth.css"
+    />
+  </body>
 </html>
